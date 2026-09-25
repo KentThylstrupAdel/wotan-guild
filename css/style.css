@@ -124,3 +124,12 @@ main h2 {
         grid-template-columns: 1fr;
     }
 }
+
+.gallery img {
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.gallery img:hover {
+    transform: scale(1.02);
+}
