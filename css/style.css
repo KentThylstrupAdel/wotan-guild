@@ -1,0 +1,57 @@
+/* Wotan Guild - Main Stylesheet */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #111111;
+    color: #e5e5e5;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    text-align: center;
+    padding: 50px 20px 30px;
+    background-color: #181818;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 4rem;
+    letter-spacing: 8px;
+}
+
+header p {
+    color: #a0a0a0;
+}
+
+nav {
+    text-align: center;
+    padding: 18px;
+    background-color: #202020;
+}
+
+nav a {
+    color: #c7c7c7;
+    text-decoration: none;
+    margin: 0 18px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ffffff;
+}
+
+main {
+    max-width: 1000px;
+    margin: 60px auto;
+    padding: 0 25px;
+}
+
+main h2 {
+    font-size: 2rem;
+    border-bottom: 1px solid #444;
+    padding-bottom: 10px;
+}
