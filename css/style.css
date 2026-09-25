@@ -90,3 +90,37 @@ main h2 {
         grid-template-columns: 1fr;
     }
 }
+/* Gallery */
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.gallery figure {
+    margin: 0;
+    background-color: #181818;
+    border: 1px solid #333;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.gallery img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.gallery figcaption {
+    padding: 15px;
+    color: #bcbcbc;
+    text-align: center;
+}
+
+@media (max-width: 700px) {
+    .gallery {
+        grid-template-columns: 1fr;
+    }
+}
